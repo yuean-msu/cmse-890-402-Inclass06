@@ -1,0 +1,13 @@
+# mkdocs.yml
+site_name: Yuean Site
+theme:
+ name: readthedocs
+plugins:
+ - mkdocstrings
+nav:
+ - Home Page: index.md
+ - API reference:
+    - example_functions: API-reference/example_functions.md
+    - test_my_tests_for_example_functions: API-reference/test_my_tests_for_example_functions.md
+    - my_functions_for_example_tests: API-reference/my_functions_for_example_tests.md
+    - test_example_tests: API-reference/test_example_tests.md
