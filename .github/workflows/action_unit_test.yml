@@ -1,6 +1,6 @@
 name: run-unit-tests
 run-name: ${{ github.actor}} is running the unit tests.
-on: [workflow_dispatch]
+on: [push]
 
 jobs:
   test-something:
